@@ -1,0 +1,55 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+}
+
+
+.search {
+    font-weight: bold;
+    font-size: 28px;
+    width: 50%;
+    outline: 1px solid lightgrey;
+    margin: auto;
+    text-align: left;
+    padding: 25px;
+}
+
+#box {
+    text-align:left;
+}
+input {
+    width: 100%;
+    height: 25px;
+
+}
+
+.list {
+    width: 35%;
+    margin: auto;
+}
+
+.listitem {
+    display: flex;
+    outline: 1px solid lightgrey;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.listitem:hover {
+    background-color: lightgrey;
+    
+}
+
+.desc {
+    font-family: 'Times', sans-serif;
+}
+.image {
+    padding: 10px;
+}
+
