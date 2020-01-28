@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"/>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="page">
+        <div class="search">
+            <div id="dir">Artist Directory</div>
+            <div id="box"><input type="text"><button id='addArtist' onclick='toggleForm(this)'>Add artist</button></div>
+            
+
+        </div>
+        
+        <div id="list">
+            <div id="form">
+                <input id="artistName" type="text" placeholder="Artist Name">
+                <input id="artistAbout" type="text" placeholder="About Artist">
+                <input id="artistUrl" type="text" placeholder="Image URL">
+                <button id='add' onclick='addArtist(this)'>Add</button>
+            </div>    
+        </div>
+    </div>
+</body>
+</html>

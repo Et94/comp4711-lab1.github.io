@@ -1,0 +1,107 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+}
+
+
+.search {
+    font-weight: bold;
+    font-size: 28px;
+    width: 50%;
+    outline: 1px solid lightgrey;
+    margin: auto;
+    text-align: left;
+    padding: 25px;
+}
+
+#box {
+    text-align:left;
+    display: flex;
+}
+input {
+    width: 90%;
+    height: 25px;
+    text-align: center;
+
+}
+
+#list {
+    width: 35%;
+    margin: auto;
+}
+
+.listitem {
+    display: flex;
+    outline: 1px solid lightgrey;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.listitem:hover {
+    background-color: lightgrey;
+    
+}
+
+.desc {
+    font-family: 'Times', sans-serif;
+}
+.image {
+    padding: 10px;
+}
+
+#form {
+    display: none;
+}
+
+#delDiv {
+    margin: auto;
+}
+
+#delete {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#addArtist {
+    background-color: #e7e7e7;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 10px;
+}
+
+#add {
+    background-color: #e7e7e7;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 80px;
+    margin:auto;
+    justify-content: center;
+}
